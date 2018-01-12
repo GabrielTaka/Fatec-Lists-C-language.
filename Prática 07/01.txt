@@ -1,0 +1,25 @@
+/* 1. A pilha é uma estrutura de dados que permite a inserção/ remoção de itens dinamicamente seguindo a norma de último a entrar, primeiro a sair. Suponha que para uma estrutura de dados, tipo pilha, são definidos os comandos:
+• PUSH (p, n): Empilha um número “n” em uma estrutura de dados do tipo pilha “p”;
+• POP (p): Desempilha o elemento no topo da pilha.
+Considere que, em uma estrutura de dados tipo pilha “p”, inicialmente vazia, sejam executados os seguintes comandos:
+PUSH (p, 10)
+PUSH (p, 5)
+PUSH (p, 3)
+PUSH (p, 40)
+POP (p)
+PUSH (p, 11)
+PUSH (p, 4)
+PUSH (p, 7)
+POP (p)
+POP (p)
+Após a execução dos comandos, o elemento no topo da
+pilha “p” e a soma dos elementos armazenados na pilha
+“p” são, respectivamente: */
+
+
+
+     (A) 11 e 29.
+     (B) 11 e 80.
+     (C) 4 e 80.
+     (D) 7 e 29.
+XXX  (E) 7 e 40. XXXXX
