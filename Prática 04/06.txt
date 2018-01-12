@@ -1,0 +1,38 @@
+/* 6. (1,0) Quais serão as saídas do programa a seguir?
+
+
+int main() {
+  int    valor,*p1,idade, idade2, vetor[3], *p4;
+  float  temp,*p2;
+  char   aux, *nome = "Linguagem de Programação", *p3; 
+                                     
+  /* (a) */
+  valor = 100;
+  p1 = &valor;
+  *p1 = *p1+20;
+  printf("(a) %d \n", valor);
+   /* (b) */
+  p3 = &nome[13];
+  aux = *p3;
+  printf("(b) %c \n", aux);
+/* (c) */
+  p3 = p3 + 4;
+  printf("(c) %c \n", *p3);
+  /* (d) */
+  vetor[0] = 10;  vetor[1] = 25;  vetor[2] = 30;
+  p4 = vetor[0];
+  idade = *p4+1;
+  printf("(d) %d \n", idade);  ----11
+  /* (e) */
+  p4++;
+  idade2=*p4;
+  printf("(e) %d \n", idade2);
+} */
+
+Saídas:
+Valor = 120
+Aux = P
+P3 = R
+Idade = 11
+Idade2 = 25
+
