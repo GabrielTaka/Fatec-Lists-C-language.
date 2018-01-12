@@ -1,0 +1,20 @@
+/* 1.	Explique o código abaixo: */
+
+#include <stdio.h>
+int troca (int *a,int *b); 
+
+main ( ){
+ int num1,num2;
+ num1=100;
+ num2=200;
+ troca (&num1,&num2); // Chamando a função troca
+ printf ("\nEles agora valem %d %d\n",num1,num2); // num1 = 200, num2 = 100
+ getch();
+}
+
+Int troca (int *a,int *b){
+ int temp;
+ temp=*a; // temp recebe o conteúdo do endereço do ponteiro a
+ *a=*b; // o conteúdo de num1 é trocado pelo conteúdo em que o ponteiro b está apontado
+ *b=temp; // num2 recebe conteúdo de temp
+}
