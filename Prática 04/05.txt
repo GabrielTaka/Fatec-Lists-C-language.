@@ -1,0 +1,38 @@
+/* 5. (ENADE,2014) Matrizes multidimensionais são vetores capazes de armazenarem mais de uma posição de cada elemento que será indicado por
+dois ou mais índices. Um exemplo de matrizes multidimensionais são as matrizes matemáticas, que representam valores tabulados em linhas e 
+colunas. */
+
+EXERCÍCIO A: 
+
+m1
+	0	1	2
+0	0	2	2
+1	0	3	3
+2	4	4	4
+
+
+
+m2
+	0	1	2
+0	2	1	1
+1	1	3	1
+2	1	1	4
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+EXERCÍCIO B:
+
+m1
+	0	1	2
+0	2	2	2
+1	3	3	3
+2	4	4	4
+
+
+
+m2
+	0	1	2
+0	2	3	4
+1	2	3	4
+2	2	3	4
