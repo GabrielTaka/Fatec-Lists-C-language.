@@ -1,0 +1,39 @@
+/* PARTE B
+Realizar uma pesquisa a respeito de funções recursivas em C e escrever um texto explicando o funcionamento de função recursiva e também 
+exemplificando o seu uso por meio de realização de testes. Inserir os códigos e também os resultados dos testes no documento.
+Citar as Referências utilizadas.
+
+
+R: Uma função que é dita recursiva é aquela que invoca ela mesma. Porém também é possível que uma função chame ela mesma, mas é preciso um 
+cuidado especial para não cairmos em um looping infinito.
+
+Geralmente, para que uma função não fique invocando ela mesma indefinidamente, devemos fazer umas alterações no argumento, ao invocar 
+novamente a função ao passo que devemos definir, na função, testes condicionais sobre o parâmetro para saber onde devemos parar de invocar
+a função. */
+
+
+	EX: Fatorial recursivo
+
+int fat (int fat);
+int fat (int num){
+int resultado;				\\ num = 3
+if (num ==1)				\\ resultado = 3 * 2  = 6.
+					\\ resultado = 3 * 1 = 3				
+    return 1;				\\ Resultado = O fatorial de 3 é 6.
+else{
+    resultado = num * fat(num -1);
+}
+return resultado;
+
+}
+
+
+int main(){
+int num, resultado;
+setlocale(LC_ALL,"portuguese");
+printf("Digite um número: ");
+scanf("%d", &num);
+fat(num);
+resultado = fat(num);
+printf("O fatorial de %d é %d", num ,resultado);
+}PARTE B
