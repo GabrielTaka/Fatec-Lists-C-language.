@@ -1,0 +1,12 @@
+/* 7. (1,0) Mostre na tabela abaixo os valores  de px, py , x e y nas linhas identificadas com A,B,C e D e identifique qual será a saída de x 
+e y do programa em C, para os valores lidos (x = 3 e y = 5), suponha que o endereço de memória atribuído para x=0028FF40 e y=0028FF44 8 */
+
+
+Teste de mesa (Mostrar o conteúdo de cada variável px, py, x e y nas partes do Programa A, B, C e D)
+
+	px	         py	    x	y
+A	0028FF40	0028FF44	3	5
+B	0028FF44	0028FF44	3	5
+C	0028FF44	0028FF44	3	125
+D	0028FF44	0028FF44	3	127
+E	0028FF44	0028FF44	3	127
